@@ -1,6 +1,6 @@
 ---
 - project:
-    queue: kayobe
+    queue: kolla
     check:
       jobs:
         - openstack-tox-pep8
@@ -13,11 +13,13 @@
         - kayobe-overcloud-tls-rocky10
         - kayobe-overcloud-ubuntu-noble
         - kayobe-overcloud-ubuntu-noble-podman
+        - kayobe-overcloud-upgrade-rocky10
         - kayobe-overcloud-upgrade-ubuntu-noble
         - kayobe-seed-rocky10
         - kayobe-seed-rocky10-podman
         - kayobe-seed-ubuntu-noble
         - kayobe-seed-ubuntu-noble-podman
+        - kayobe-seed-upgrade-rocky10
         - kayobe-seed-upgrade-ubuntu-noble
         - kayobe-seed-vm-rocky10
         - kayobe-seed-vm-ubuntu-noble
@@ -33,11 +35,13 @@
         - kayobe-overcloud-tls-rocky10
         - kayobe-overcloud-ubuntu-noble
         - kayobe-overcloud-ubuntu-noble-podman
+        - kayobe-overcloud-upgrade-rocky10
         - kayobe-overcloud-upgrade-ubuntu-noble
         - kayobe-seed-rocky10
         - kayobe-seed-rocky10-podman
         - kayobe-seed-ubuntu-noble
         - kayobe-seed-ubuntu-noble-podman
+        - kayobe-seed-upgrade-rocky10
         - kayobe-seed-upgrade-ubuntu-noble
         - kayobe-seed-vm-rocky10
         - kayobe-seed-vm-ubuntu-noble
