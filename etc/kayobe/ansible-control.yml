@@ -4,7 +4,7 @@
 
 # User with which to access the Ansible control host via SSH during bootstrap,
 # in order to setup the Kayobe user account. Default is {{ os_distribution }}.
-#ansible_control_bootstrap_user:
+ansible_control_bootstrap_user: "{{ lookup('env', 'USER') }}"
 
 ###############################################################################
 # Ansible control host network interface configuration.
