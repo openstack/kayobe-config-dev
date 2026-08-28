@@ -78,6 +78,13 @@ os_release: "{{ 'noble' if os_distribution == 'ubuntu' else lookup('pipe', '. /e
 #kayobe_control_host_become:
 
 ###############################################################################
+# Networking configuration.
+
+# Network configuration engine. Valid options are "default" and "nmstate".
+# Default is "default".
+#network_engine: default
+
+###############################################################################
 # SELinux configuration.
 
 # Don't reboot after disabling SELinux in all-in-one environments, as Ansible
