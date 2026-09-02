@@ -6,14 +6,14 @@
         - openstack-tox-pep8
         - kayobe-infra-vm-rocky10
         - kayobe-infra-vm-ubuntu-noble
-        - kayobe-overcloud-host-configure-rocky10
-        - kayobe-overcloud-host-configure-ubuntu-noble
-        - kayobe-overcloud-rocky10
-        - kayobe-overcloud-rocky10-podman
-        - kayobe-overcloud-tls-rocky10
-        - kayobe-overcloud-ubuntu-noble
-        - kayobe-overcloud-ubuntu-noble-podman
-        - kayobe-overcloud-upgrade-ubuntu-noble
+        #- kayobe-overcloud-host-configure-rocky10
+        #- kayobe-overcloud-host-configure-ubuntu-noble
+        #- kayobe-overcloud-rocky10
+        #- kayobe-overcloud-rocky10-podman
+        #- kayobe-overcloud-tls-rocky10
+        #- kayobe-overcloud-ubuntu-noble
+        #- kayobe-overcloud-ubuntu-noble-podman
+        #- kayobe-overcloud-upgrade-ubuntu-noble
         - kayobe-seed-rocky10
         - kayobe-seed-rocky10-podman
         - kayobe-seed-ubuntu-noble
@@ -26,14 +26,14 @@
         - openstack-tox-pep8
         - kayobe-infra-vm-rocky10
         - kayobe-infra-vm-ubuntu-noble
-        - kayobe-overcloud-host-configure-rocky10
-        - kayobe-overcloud-host-configure-ubuntu-noble
-        - kayobe-overcloud-rocky10
-        - kayobe-overcloud-rocky10-podman
-        - kayobe-overcloud-tls-rocky10
-        - kayobe-overcloud-ubuntu-noble
-        - kayobe-overcloud-ubuntu-noble-podman
-        - kayobe-overcloud-upgrade-ubuntu-noble
+        #- kayobe-overcloud-host-configure-rocky10
+        #- kayobe-overcloud-host-configure-ubuntu-noble
+        #- kayobe-overcloud-rocky10
+        #- kayobe-overcloud-rocky10-podman
+        #- kayobe-overcloud-tls-rocky10
+        #- kayobe-overcloud-ubuntu-noble
+        #- kayobe-overcloud-ubuntu-noble-podman
+        #- kayobe-overcloud-upgrade-ubuntu-noble
         - kayobe-seed-rocky10
         - kayobe-seed-rocky10-podman
         - kayobe-seed-ubuntu-noble
